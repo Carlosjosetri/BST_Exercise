@@ -1,0 +1,3 @@
+"D:\CLion 2019.2.1\bin\cmake\win\bin\cmake.exe" -E remove -f CMakeFiles\arboles.dir/objects.a
+D:\mgwin\mingw32\bin\ar.exe cr CMakeFiles\arboles.dir/objects.a @CMakeFiles\arboles.dir\objects1.rsp
+D:\mgwin\mingw32\bin\g++.exe -g   -Wl,--whole-archive CMakeFiles\arboles.dir/objects.a -Wl,--no-whole-archive  -o arboles.exe -Wl,--out-implib,libarboles.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\arboles.dir\linklibs.rsp
